@@ -6,10 +6,27 @@
 }
 
 .menu_bar {
-    margin-left: 10px;
-    margin-right: 15px;
+    padding: 10px;
+    padding: 15px;
     display: flex;
-    gap: 1em;
+    position: fixed;
+    width: 95%;
+    top: 0;
+    padding: 10px;
+}
+
+.recipe {
+    position: fixed;
+    width: 95%;
+    top: 10px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    padding: 20px;
+    margin-top: 63px;
+}
+
+img {
+    margin-top: 160px;
 }
 
 .menu_bar .menu_wrapper {
@@ -25,6 +42,7 @@
 }
 .menu_wrapper{
     flex-direction: row;
+
 }
 
 .menu, 
@@ -37,7 +55,6 @@
     min-width: fit-content;
     justify-content: center;
 }
-
 
 h1 {
     font-size: 40px;
