@@ -2,5 +2,53 @@
     background-color: rgb(13, 50, 80);
     color: aliceblue;
     font-family: Arial;
+    font-size: 25px;
 }
 
+.menu_bar {
+    margin-left: 10px;
+    margin-right: 15px;
+    display: flex;
+    gap: 1em;
+}
+
+.menu_bar .menu_wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+.menu_bar .title {
+
+    min-width: fit-content;
+}
+.menu_wrapper{
+    flex-direction: row;
+}
+
+.menu, 
+.login {
+    background-color: aliceblue;
+    color: rgb(13, 50, 80);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    min-width: fit-content;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.title {
+    font-size: 55px;
+}
+
+li {
+    display: inline-block
+    box-sizing: content-box;
+    width: 600px;
+    padding: 5px;
+}
